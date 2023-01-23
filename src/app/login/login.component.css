@@ -1,0 +1,73 @@
+h2{
+    text-align: center;
+    font-size: 24px;
+    }
+    hr{
+    margin-bottom: 30px;
+    }
+    div.container{
+        padding-top: 10px;
+ 
+    width: 1200px;
+    height: 700px;
+    margin:50px auto;
+    position:relative;
+    float:center;
+    
+    }
+    div.main{
+    width: 320px;
+    float:center;
+    padding: 10px 55px 40px;
+    background-color:white;
+    border: 5px solid rgb(8, 8, 8);
+    box-shadow: 0 0 10px;
+    border-radius: 2px;
+    position:center;
+    font-size: 13px;
+    opacity: 0.8;
+    }
+    input[type=text],[type=password],[type=select]{
+    width: 200px;
+    height: 40px;
+    padding-left: 1px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    box-shadow: 0 0 5px rgb(20, 20, 20);
+    border: 3px solid rgb(0, 0, 0);
+    color: black;
+    font-size: 20px;
+    }
+    label{
+    color: rgb(8, 8, 8);
+    text-shadow: 0 1px 0 rgb(20, 20, 20);
+    font-size: 14px;
+    font-weight: bold;
+    }
+    .login {
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: rgb(31, 16, 149);
+    border: 1px solid rgb(125, 25, 25);
+    padding: 7px 35px;
+    color: rgb(126, 64, 20);
+    text-shadow: 0px 1px 0px #13506D;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    
+    }
+    .login:hover{
+    background-color: rgb(3, 4, 66);
+    }
+    body{
+        background-image:url(https://batteryindustry.tech/wp-content/uploads/2020/06/amazon.jpg);
+        background-position:center center;
+        background-size:cover;
+        position:relative;
+        font-family:sans-serif;
+        background-repeat:no-repeat;
+        height: 100vh;
+        opacity: 1;
+        }

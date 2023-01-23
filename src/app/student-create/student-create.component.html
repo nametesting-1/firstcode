@@ -1,0 +1,49 @@
+<app-adminheader></app-adminheader>
+<h3 >Add Products</h3>
+<form (ngSubmit)="createStudent()" >
+    <!-- row#1 -->
+    <div class="row">
+        <div class="col-2">
+            <label>NAME</label>
+        </div>
+        <div class="col-4">
+            <input type="text" [(ngModel)]="product.name" name="name" class="form-control"/>
+        </div>
+    </div>
+
+    <!-- row#2 -->
+    <div class="row">
+        <div class="col-2">
+            <label>PRICE</label>
+        </div>
+        <div class="col-4">
+            <input type="text" [(ngModel)]="product.price" name="price" class="form-control"/>
+        </div>
+    </div>
+
+   
+
+   
+       <!-- row#3 -->
+    <div class="row">
+        <div class="col-2">
+            <label>QUANTITY</label>
+        </div>
+        <div class="col-4">
+            <input type="text" [(ngModel)]="product.quantity" name="quantity" class="form-control"/>
+        </div>
+       
+    </div>
+        <!-- row#3 -->
+        <div class="row">
+            <div class="col-2">
+                <label>PHOTO URL</label>
+            </div>
+            <div class="col-4">
+                <input type="text" [(ngModel)]="product.photo" name="photo" class="form-control"/>
+            </div>
+           
+        </div>
+    <input type="submit" value="Add Product" class="btn btn-success"/>
+</form>
+<span class="text-info">{{message}}</span>
